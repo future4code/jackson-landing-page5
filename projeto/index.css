@@ -6,6 +6,7 @@ body {
     padding: 0;
     margin: 0;
     background-color: white;
+    
 }
 
 header {
@@ -61,33 +62,49 @@ a {
 main{
     justify-content: center;
     width: 100vw;
-    height: 100vh;
+    max-height: 100vh;
     
 }
 
 .logotipo {
     display: flex;
-    
+    flex-direction: column;
     align-items: center;
 }
 .Logomain1 {
-    width: 30vw;
+    width: 20vw;
+    height: 40vh;
+    
 }
 
 .Logomain2 {
    width: 80vw;
+   height: 35vh;
 }
 
 footer {
-    display: grid;
+    margin-top: auto;
+}
 
+.footer-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .top {
-  
+    background-color:#3EC5E4;
+    text-align: center;
 }
 
 
 .bottom {
-    
+    justify-items: center;
+    box-shadow: 0 8px 16px 0 #3EC5E4;
+}
+
+.footer-bottom {
+    background-color: #3EC5E4;
+    display: flex;
+    gap: 2vw;
+    justify-content: center;
 }
