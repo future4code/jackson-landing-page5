@@ -10,30 +10,31 @@ body {
 header {
     padding:0;
     margin: 0;
-    height: 6rem;
+    height: 11vh;
     background-color: white;
     display:grid;
     grid-template-columns: 1fr;
+    width: 100%;
 }
 
 nav { 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    height: 5rem;
+    height: 5vh;
     align-items: center;
     justify-content: center;
     font-family: 'Lato', sans-serif;
+    width: 100%;
 }
 
 #logo {
 
-    width: 28rem;
-    margin-left: 80px;
+    margin-left: 5vw;
 
 }
 
 a {
-    font-size: 40px;
+    font-size: 4vh;
     color:black;
     text-decoration: none;
     border:none;
@@ -41,7 +42,7 @@ a {
 }
 
 img {
-    width: 28rem;
+    width: 23vw;
 }
 
 #listaprodutos {
@@ -49,25 +50,123 @@ img {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     border: none;
     text-align: center;
+    width: 100vw;
+    background-color: white;
 }
 section {
     display: grid;
     grid-template-columns: 1fr;
-    margin: 10px;
-    width: 28rem;
+    margin: 0.2vw;
+    width: 23vw;
     align-items: center;
     text-align: center;
     border: solid;
-    padding: 0px;
-    
+    padding: 0px;  
+    background-color: whitesmoke;
 }
 p {
     text-align: center;
     font-family: 'Lato', sans-serif;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
 }
 
 footer {
-    background-color: grey;
-    height: 12rem;
+    background-color: #3EC5E4;
+    height: 12vh;
+    width: 100vw;
+    padding:0;
+    margin: 0;
+    height: 6rem;
+    display:grid;
+    grid-template-columns: 1fr;
 }
+
+
+@media screen and (min-device-width : 374px) and (max-device-width : 668px) {
+
+    
+body {
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+header {
+    padding:0;
+    margin: 0;
+    height: 11vh;
+    background-color: white;
+    display:grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+}
+
+nav { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 5vh;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+}
+
+#logo {
+
+    width: ;
+    margin-left: 5vw;
+
+}
+
+a {
+    font-size: 2vh;
+    color:black;
+    text-decoration: none;
+    border:none;
+    text-align: center;
+}
+
+img {
+    width: 45vw;
+}
+
+#listaprodutos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: none;
+    text-align: center;
+    width: 100vw;
+    background-color: white;
+}
+section {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0.2vw;
+    width: 45vw;
+    align-items: center;
+    text-align: center;
+    border: solid;
+    padding: 0px;  
+    background-color: whitesmoke;
+}
+p {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.8rem;
+}
+
+footer {
+    background-color: #3EC5E4;
+    height: 12vh;
+    width: 100vw;
+    padding:0;
+    margin: 0;
+    height: 6rem;
+    display:grid;
+    grid-template-columns: 1fr;
+}
+
+    }
+    
